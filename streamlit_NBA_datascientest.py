@@ -38,7 +38,7 @@ def read_file(emplacement):
     return df
 
 
-# Importation des données de tirs brutes, scindées en 8 fichiers csv
+# Importation des données de tirs brutes, stockées dans 8 fichiers csv
 link_1 = "https://github.com/JulienLickel/NBA-shots-predictions-/blob/main/Data/tirs_partie_1.csv"
 df1 = read_file(link_1)
 
@@ -6050,3 +6050,4 @@ else: # pages=="BONUS : comparateur de joueurs"
 
 
     
+
