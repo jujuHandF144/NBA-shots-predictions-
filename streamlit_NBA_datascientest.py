@@ -6,7 +6,6 @@ Created on Wed Mar 23 20:22:42 2022
 """
 
 # MODULES :
-
 from skimage import io
 import pandas as pd
 import numpy as np
@@ -31,7 +30,6 @@ st.set_page_config(layout = "wide",
 
 
 # Lecture des fichiers CSV : 
-
 @st.cache
 def read_file(emplacement):
     
@@ -40,43 +38,34 @@ def read_file(emplacement):
     return df
 
 
-
-link_1 = "https://github.com/jujuHandF144/NBA-shots-predictions-/blob/main/data_NBA_partie1_datascientest.csv?raw=true"
+# Importation des données de tirs brutes, scindées en 8 fichiers csv
+link_1 = "https://github.com/JulienLickel/NBA-shots-predictions-/blob/main/Data/tirs_partie_1.csv"
 df1 = read_file(link_1)
 
-
-link_2 = "https://github.com/jujuHandF144/NBA-shots-predictions-/blob/main/data_NBA_partie2_datascientest.csv?raw=true"
+link_2 = "https://github.com/JulienLickel/NBA-shots-predictions-/blob/main/Data/tirs_partie_2.csv"
 df2 = read_file(link_2)
 
-
-link_3 = "https://github.com/jujuHandF144/NBA-shots-predictions-/blob/main/data_NBA_partie_3_datascientest.csv?raw=true"
+link_3 = "https://github.com/JulienLickel/NBA-shots-predictions-/blob/main/Data/tirs_partie_3.csv"
 df3 = read_file(link_3)
 
-
-link_4 = "https://github.com/jujuHandF144/NBA-shots-predictions-/blob/main/data_NBA_partie4_datascientest.csv?raw=true"
+link_4 = "https://github.com/JulienLickel/NBA-shots-predictions-/blob/main/Data/tirs_partie_4.csv"
 df4 = read_file(link_4)
 
-
-link_5 = "https://github.com/jujuHandF144/NBA-shots-predictions-/blob/main/data_NBA_partie5_datascientest.csv?raw=true"
+link_5 = "https://github.com/JulienLickel/NBA-shots-predictions-/blob/main/Data/tirs_partie_5.csv"
 df5 = read_file(link_5)
 
-
-link_6 = "https://github.com/jujuHandF144/NBA-shots-predictions-/blob/main/data_NBA_partie6_datascientest.csv?raw=true"
+link_6 = "https://github.com/JulienLickel/NBA-shots-predictions-/blob/main/Data/tirs_partie_6.csv"
 df6 = read_file(link_6)
 
-
-link_7 = "https://github.com/jujuHandF144/NBA-shots-predictions-/blob/main/data_NBA_partie7_datascientest.csv?raw=true"
+link_7 = "https://github.com/JulienLickel/NBA-shots-predictions-/blob/main/Data/tirs_partie_7.csv"
 df7 = read_file(link_7)
 
-
-link_8 = "https://github.com/jujuHandF144/NBA-shots-predictions-/blob/main/data_NBA_partie8_datascientest.csv?raw=true"
+link_8 = "https://github.com/JulienLickel/NBA-shots-predictions-/blob/main/Data/tirs_partie_8.csv"
 df8 = read_file(link_8)
 
 
 
-
 # CONSTRUCTION DE df_elargi PAR CONCATENATIONS SUCCESSIVES : 
-
 @st.cache
 def composition(datas):
     
@@ -6058,5 +6047,6 @@ else: # pages=="BONUS : comparateur de joueurs"
     
         col1.write(fig1)
         col2.write(fig2)
+
 
     
