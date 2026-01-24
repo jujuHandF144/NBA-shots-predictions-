@@ -33,7 +33,9 @@ st.set_page_config(layout = "wide",
 @st.cache
 def read_file(emplacement):
     
-    df = pd.read_csv(emplacement, sep = ",")
+    df = pd.read_csv(emplacement, 
+                     sep = "," , 
+                     on_bad_lines = 'skip')
     
     return df
 
@@ -6050,6 +6052,7 @@ else: # pages=="BONUS : comparateur de joueurs"
 
 
     
+
 
 
 
