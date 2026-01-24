@@ -43,25 +43,25 @@ def read_file(emplacement):
 link_1 = "https://raw.githubusercontent.com/JulienLickel/NBA-shots-predictions-/refs/heads/main/Data/tirs_partie_1.csv"
 df1 = read_file(link_1)
 
-link_2 = "https://github.com/JulienLickel/NBA-shots-predictions-/blob/main/Data/tirs_partie_2.csv"
+link_2 = "https://raw.githubusercontent.com/JulienLickel/NBA-shots-predictions-/refs/heads/main/Data/tirs_partie_2.csv"
 df2 = read_file(link_2)
 
-link_3 = "https://github.com/JulienLickel/NBA-shots-predictions-/blob/main/Data/tirs_partie_3.csv"
+link_3 = "https://raw.githubusercontent.com/JulienLickel/NBA-shots-predictions-/refs/heads/main/Data/tirs_partie_3.csv"
 df3 = read_file(link_3)
 
-link_4 = "https://github.com/JulienLickel/NBA-shots-predictions-/blob/main/Data/tirs_partie_4.csv"
+link_4 = "https://raw.githubusercontent.com/JulienLickel/NBA-shots-predictions-/refs/heads/main/Data/tirs_partie_4.csv"
 df4 = read_file(link_4)
 
-link_5 = "https://github.com/JulienLickel/NBA-shots-predictions-/blob/main/Data/tirs_partie_5.csv"
+link_5 = "https://raw.githubusercontent.com/JulienLickel/NBA-shots-predictions-/refs/heads/main/Data/tirs_partie_5.csv"
 df5 = read_file(link_5)
 
-link_6 = "https://github.com/JulienLickel/NBA-shots-predictions-/blob/main/Data/tirs_partie_6.csv"
+link_6 = "https://raw.githubusercontent.com/JulienLickel/NBA-shots-predictions-/refs/heads/main/Data/tirs_partie_6.csv"
 df6 = read_file(link_6)
 
-link_7 = "https://github.com/JulienLickel/NBA-shots-predictions-/blob/main/Data/tirs_partie_7.csv"
+link_7 = "https://raw.githubusercontent.com/JulienLickel/NBA-shots-predictions-/refs/heads/main/Data/tirs_partie_7.csv"
 df7 = read_file(link_7)
 
-link_8 = "https://github.com/JulienLickel/NBA-shots-predictions-/blob/main/Data/tirs_partie_8.csv"
+link_8 = "https://raw.githubusercontent.com/JulienLickel/NBA-shots-predictions-/refs/heads/main/Data/tirs_partie_8.csv"
 df8 = read_file(link_8)
 
 
@@ -6051,6 +6051,7 @@ else: # pages=="BONUS : comparateur de joueurs"
 
 
     
+
 
 
 
